@@ -97,7 +97,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Contact
 
 - Discord: @valoix
-- Website: [valoix.com](https://valoix.com/)
+- Website: [danieldoesstuff.com](https://danieldoesstuff.com/)
 
 ## License
 

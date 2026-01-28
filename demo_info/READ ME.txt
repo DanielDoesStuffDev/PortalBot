@@ -1,0 +1,12 @@
+Formating for "archive_demo_info.txt" is as follows
+
+demo_protocol
+network_protocol
+server_name
+client_name
+map_name
+game_directory
+playback_time
+playback_ticks
+playback_frames
+sign_on_length

@@ -5,6 +5,7 @@
 
 import struct
 from discord import Embed
+import responses
 
 class Reader:
 	def __init__(self, data) -> None:
@@ -67,66 +68,97 @@ class Parser:
 
 
 	def parse_demo(self):
-		# check file stamp
-		self.demo.file_stamp = self.reader.read_string(8)
-		if self.demo.file_stamp != "HL2DEMO\0":
-			print(f"{self.demo.file_stamp}")
-			self.demo = Demo()
-			return
+		try:
+			# check file stamp
+			self.demo.file_stamp = self.reader.read_string(8)
+			if self.demo.file_stamp != "HL2DEMO\0":
+				print(f"{self.demo.file_stamp}")
+				self.demo = Demo()
+				return
 
-		self.demo.demo_protocol = self.reader.read_int(4)
-		self.demo.network_protocol = self.reader.read_int(4)
-		self.demo.server_name = self.reader.read_string(260)
-		self.demo.client_name = self.reader.read_string(260)
-		self.demo.map_name = self.reader.read_string(260)
-		self.demo.game_directory = self.reader.read_string(260)
-		self.demo.playback_time = self.reader.read_float(4)
-		self.demo.playback_ticks = self.reader.read_int(4)
-		self.demo.playback_frames = self.reader.read_int(4)
-		self.demo.sign_on_length = self.reader.read_int(4)
+			self.demo.demo_protocol = self.reader.read_int(4)
+			self.demo.network_protocol = self.reader.read_int(4)
+			self.demo.server_name = self.reader.read_string(260)
+			self.demo.client_name = self.reader.read_string(260)
+			self.demo.map_name = self.reader.read_string(260)
+			self.demo.game_directory = self.reader.read_string(260)
+			self.demo.playback_time = self.reader.read_float(4)
+			self.demo.playback_ticks = self.reader.read_int(4)
+			self.demo.playback_frames = self.reader.read_int(4)
+			self.demo.sign_on_length = self.reader.read_int(4)
 
-		while self.reader.index < len(self.reader.data):
-			packet_type = self.reader.read_int(1)
-			tick = self.reader.read_int(4)
-			if tick not in self.demo.ticks and tick >= 0:
-				self.demo.ticks.append(tick)
-			match packet_type:
-				case 7:
-					# STOP packet
-					break
-				case 1 | 2:
-					# SINGON packet
-					
-					# skip cmd_info, in/out sequence
-					self.reader.skip(76 + 4 + 4)
-					self.reader.skip(self.reader.read_int(4))
-				case 3:
-					# SYNCTICK packet
-					# contains no data
-					pass
-				case 4:
-					# CONSOLE CMD packet
-					# contains a string, will be useful for time adjustment later
-					self.reader.skip(self.reader.read_int(4))
-				case 5:
-					# USER CMD packet
-					# will also be useful for time adjustment later
+			
+	# 		# Save Tick
+	# 		print(responses.print_colour("B", 
+	# 								f"""
+	# Reading Demo...
+	# Playback Ticks: {tick}"""))
+	# 		demos_ticks = []
+	# 		with open("./demo_info/archive_demo_info.txt", "r") as file:
+	# 			for line in file.readlines():
+	# 				demos_ticks.append(int(line))
+	# 			file.close()
+	# 		demos_ticks.append(tick)
 
-					# skip cmd
-					self.reader.skip(4)
-					self.reader.skip(self.reader.read_int(4))
-				case 6:
-					# DATATABLES packet
-					# will most likely not be useful here
-					self.reader.skip(self.reader.read_int(4))
-				case 8:
-					# STRINGTABLES packet
-					# will most likely not be useful here
-					self.reader.skip(self.reader.read_int(4))
+	# 		with open("./demo_info/archive_demo_info.txt", "w") as file:
+	# 			for value in demos_ticks:
+	# 				file.write(f"{value}\n")
+	# 			file.close()
+
+			while self.reader.index < len(self.reader.data):
+				packet_type = self.reader.read_int(1)
+				tick = self.reader.read_int(4)
+				if tick not in self.demo.ticks and tick >= 0:
+					self.demo.ticks.append(tick)
+					with open("./demo_info/archive_demo_info.txt", "a") as file:
+						file.write(f"{tick}\n")
+						
+
+				match packet_type:
+					case 7:
+						# STOP packet
+						break
+					case 1 | 2:
+						# SINGON packet
+						
+						# skip cmd_info, in/out sequence
+						self.reader.skip(76 + 4 + 4)
+						self.reader.skip(self.reader.read_int(4))
+					case 3:
+						# SYNCTICK packet
+						# contains no data
+						pass
+					case 4:
+						# CONSOLE CMD packet
+						# contains a string, will be useful for time adjustment later
+						self.reader.skip(self.reader.read_int(4))
+					case 5:
+						# USER CMD packet
+						# will also be useful for time adjustment later
+
+						# skip cmd
+						self.reader.skip(4)
+						self.reader.skip(self.reader.read_int(4))
+					case 6:
+						# DATATABLES packet
+						# will most likely not be useful here
+						self.reader.skip(self.reader.read_int(4))
+					case 8:
+						# STRINGTABLES packet
+						# will most likely not be useful here
+						self.reader.skip(self.reader.read_int(4))
+			file.close()
+		except Exception as e:
+			print(responses.print_colour("R", f"Error parsing demo: {e}"))
 
 
 	def generate_embed(self, filename: str) -> Embed:
-		ticks_len = len(self.demo.ticks)
+		total_ticks = 0
+		with open("./demo_info/archive_demo_info.txt", "r") as file:
+			for line in file.readlines():
+				total_ticks += 1
+			print(responses.print_colour("B", f"{total_ticks}"))
+		ticks_len = total_ticks
 		seconds = ticks_len * 0.015
 		minutes = round(seconds // 60)
 		if minutes == 0:
@@ -134,7 +166,10 @@ class Parser:
 			if len(time_str.split(".")[1]) == 2:
 				time_str += "0"
 		else:
-			time_str = str(minutes) + ":" + str(seconds - minutes * 60)
+			if seconds - minutes * 60 < 10:
+				time_str = str(minutes) + ":0" + str(seconds - minutes * 60)
+			else:
+				time_str = str(minutes) + ":" + str(seconds - minutes * 60)
 			if len(time_str.split(".")[1]) == 2:
 				time_str += "0"
 

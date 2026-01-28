@@ -1,0 +1,618 @@
+[
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "12:00.400",
+        "date": "05/10/2015",
+        "link": "N/A"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "11:49.900",
+        "date": "03/11/2015",
+        "link": "N/A"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "g",
+        "time": "16:16.930",
+        "date": "29/04/2017",
+        "link": "N/A"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "11:13.180",
+        "date": "20/06/2017",
+        "link": "N/A"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:33.690",
+        "date": "04/07/2017",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/331630681291751424"
+    },
+    {
+        "name": "Msushi",
+        "category": "o",
+        "time": "7:31.800",
+        "date": "05/07/2017",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/331871306217684994"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:27.19",
+        "date": "16/07/2017",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/335912260083908608"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "11:11.200",
+        "date": "18/07/2017",
+        "link": "N/A"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "11:09.580",
+        "date": "19/07/2017",
+        "link": "N/A"
+    },
+    {
+        "name": "BiiWiX",
+        "category": "i",
+        "time": "10:58.270",
+        "date": "19/07/2017",
+        "link": "N/A"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "16:29.380",
+        "date": "05/09/2017",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/354380976992026625"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "16:15.420",
+        "date": "30/01/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/407690650927104001"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "15:59.140",
+        "date": "31/01/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/408057044050903041"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:43.390",
+        "date": "03/02/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/409162110447255552"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:57.610",
+        "date": "30/03/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/429654267138146324"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:21.870",
+        "date": "03/04/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/430546486778920961"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "15:55.400",
+        "date": "15/06/2018",
+        "link": "https://discord.com/channels/305456639530500096/305456639530500096/456963846373113866"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "15:50.400",
+        "date": "16/06/2023",
+        "link": "N/A"
+    },
+    {
+        "name": "Msushi",
+        "category": "g",
+        "time": "15:47.350",
+        "date": "16/06/2018",
+        "link": "N/A"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:55.050",
+        "date": "17/09/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/490904703669108746"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:54.960",
+        "date": "17/09/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/490915301525815306"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:45.21",
+        "date": "17/09/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/491051258283819018"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:43.780",
+        "date": "03/11/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/508087717196857356"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:41.830",
+        "date": "05/11/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/508762164941815819"
+    },
+    {
+        "name": "Msushi",
+        "category": "i",
+        "time": "10:38.900",
+        "date": "05/11/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/508793680014868492"
+    },
+    {
+        "name": "Msushi",
+        "category": "o",
+        "time": "7:21.340",
+        "date": "08/11/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/509891144663040001"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:16.740",
+        "date": "14/11/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/512063837407805460"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:14.500",
+        "date": "19/12/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/524775062318874635"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:12.250",
+        "date": "24/12/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/526497825840824321"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:07.920",
+        "date": "30/12/2018",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/528758514986909737"
+    },
+    {
+        "name": "Shizzal",
+        "category": "i",
+        "time": "10:36.960",
+        "date": "22/01/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/537114452131184652"
+    },
+    {
+        "name": "Forx",
+        "category": "i",
+        "time": "10:36.370",
+        "date": "09/02/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/543662554854064138"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:43.420",
+        "date": "16/03/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/556274232330420239"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:06.480",
+        "date": "14/04/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/566725468045180928"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:39.520",
+        "date": "15/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/577977839014510601"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:37.110",
+        "date": "17/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/578668923323547667"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:36.570",
+        "date": "17/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/578736078459109390"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:34.240",
+        "date": "27/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/582263123931693123"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:03.310",
+        "date": "29/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/583057646568079380"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "7:01.920",
+        "date": "30/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/583429250405630020"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "6:58.20",
+        "date": "30/05/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/583771540718616608"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:31.12",
+        "date": "01/06/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/584521162197827630"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:29.82",
+        "date": "08/08/2019",
+        "link": "https://discordapp.com/channels/305456639530500096/489557870090780682/597836273432002562"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:23.23",
+        "date": "28/09/2019",
+        "link": "https://discordapp.com/channels/305456639530500096/489557870090780682/627538734845526059"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:29.82",
+        "date": "08/08/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/597836273432002562"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:29.82",
+        "date": "08/08/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/597836273432002562"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:23.23",
+        "date": "28/09/2019",
+        "link": "https://discordapp.com/channels/305456639530500096/489557870090780682/627538734845526059"
+    },
+    {
+        "name": "Msushi",
+        "category": "nl",
+        "time": "12:23.23",
+        "date": "28/09/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/627538734845526059"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:21.12",
+        "date": "29/09/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/627894322762874890"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:12.27",
+        "date": "29/09/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/627908216562515969"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "6:56.83",
+        "date": "22/10/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/636368922517700638"
+    },
+    {
+        "name": "Crisper",
+        "category": "i",
+        "time": "10:36.28",
+        "date": "09/11/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/642911418416496641"
+    },
+    {
+        "name": "Crisper",
+        "category": "i",
+        "time": "10:33.15",
+        "date": "10/11/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/643300926391582756"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "6:54.06",
+        "date": "12/11/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/643864608947568640"
+    },
+    {
+        "name": "Crisper",
+        "category": "i",
+        "time": "10:22.41",
+        "date": "15/11/2019",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/644964415346704400"
+    },
+    {
+        "name": "Crisper",
+        "category": "i",
+        "time": "10:12.03",
+        "date": "21/03/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/691152365637599362"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:42.57",
+        "date": "12/01/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/665995607252402227"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:41.35",
+        "date": "22/01/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/669717949787144202"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:38.64",
+        "date": "25/01/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/670640132168351746"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:53.94",
+        "date": "16/02/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/678788109302890507"
+    },
+    {
+        "name": "Adamantite",
+        "category": "nl",
+        "time": "12:05.68",
+        "date": "18/02/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/679427827413549086"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "12:01.75",
+        "date": "18/03/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/689939041369849969"
+    },
+    {
+        "name": "Crisper",
+        "category": "i",
+        "time": "10:12.03",
+        "date": "21/03/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/691152365637599362"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "6:53.65",
+        "date": "27/03/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/693154285931855903"
+    },
+    {
+        "name": "Dinoz",
+        "category": "nl",
+        "time": "11:59.20",
+        "date": "28/04/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/704647015832879174"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "11:53.65",
+        "date": "09/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/708818000140304404"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:36.58",
+        "date": "18/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/711992072948678748"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:34.53",
+        "date": "19/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/712388078244724858"
+    },
+    {
+        "name": "CantEven",
+        "category": "o",
+        "time": "6:47.65",
+        "date": "23/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/713842518374219907"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:33.76",
+        "date": "25/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/714542667777704042"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:27.52",
+        "date": "25/05/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/714559216395878450"
+    },
+    {
+        "name": "Adamantite",
+        "category": "nl",
+        "time": "11:49.17",
+        "date": "16/06/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/722462002177376358"
+    },
+    {
+        "name": "Dinoz",
+        "category": "g",
+        "time": "15:26.65",
+        "date": "29/06/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/727077807401861151"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:25.63",
+        "date": "02/07/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/728122941174186006"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:23.01",
+        "date": "07/07/20",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/729931453365878815"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:42.60",
+        "date": "27/07/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/737148926624399481"
+    },
+    {
+        "name": "Zoochable",
+        "category": "g",
+        "time": "15:19.530",
+        "date": "06/08/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/740759951340732417"
+    },
+    {
+        "name": "Canteven",
+        "category": "o",
+        "time": "6:42.06",
+        "date": "09/09/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/741748185420005406"
+    },
+    {
+        "name": "Shizzal",
+        "category": "g",
+        "time": "15:16.74",
+        "date": "15/08/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/744071263634456616"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:40.09",
+        "date": "20/08/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/745761764591009836"
+    },
+    {
+        "name": "Canteven",
+        "category": "o",
+        "time": "6:37.59",
+        "date": "24/08/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/747246860418154669"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:35.92",
+        "date": "03/09/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/751175357088006314"
+    },
+    {
+        "name": "Shizzal",
+        "category": "nl",
+        "time": "11:42.46",
+        "date": "23/09/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/758425705968042024"
+    },
+    {
+        "name": "Canteven",
+        "category": "o",
+        "time": "6:34.93",
+        "date": "01/10/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/761322090035937280"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:34.89",
+        "date": "09/10/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/763962776430313523"
+    },
+    {
+        "name": "Canteven",
+        "category": "o",
+        "time": "6:33.54",
+        "date": "12/10/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/765048749021069332"
+    },
+    {
+        "name": "Canteven",
+        "category": "o",
+        "time": "6:33.48",
+        "date": "13/10/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/765667510456025148"
+    },
+    {
+        "name": "Shizzal",
+        "category": "o",
+        "time": "6:35.92",
+        "date": "03/09/2020",
+        "link": "https://discord.com/channels/305456639530500096/489557870090780682/751175357088006314"
+    }
+]

@@ -1,0 +1,29 @@
+# Environment variables (contains secrets)
+.env
+
+# Legacy secrets file
+secret.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+downloads/
+pinnerino/*.mp4
+pinnerino/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
